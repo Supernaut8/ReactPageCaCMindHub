@@ -1,0 +1,32 @@
+.home_main_container {
+    border: 2px solid navy;
+    border-radius: 10px;
+    margin: 20px auto;
+    background-color: rgb(31, 63, 138);
+    color: white;
+    max-width: 700px;
+    height: auto;
+}
+
+.home_main_container h1 {
+    font-size: 28px;
+}
+
+.home_main_container h2 {
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+/* .home_main_container {
+    border: 3px solid navy;
+    border-radius: 10px;
+    margin: 50px;
+}
+
+margin: 20px auto; */
