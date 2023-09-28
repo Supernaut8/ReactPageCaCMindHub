@@ -1,8 +1,10 @@
+import React from 'react';
 import './styles/App.css';
 import './styles/AppBarMUI.css';
+import './styles/BottomAppBarMUI.css'
 import Home from './components/home';
 import AppBarMUI from './components/AppBarMUI';
-import SwiperCarousel from './components/SwiperCarousel';
+
 import BottomAppBarMUI from './components/BottomAppBarMUI';
 
 function App() {
@@ -10,9 +12,8 @@ function App() {
     <div className="App">
       <AppBarMUI />
       <Home />
-      <SwiperCarousel />
-      <BottomAppBarMUI />
       
+      <BottomAppBarMUI />
     </div>
   );
 }

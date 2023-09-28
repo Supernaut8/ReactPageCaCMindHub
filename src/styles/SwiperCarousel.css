@@ -1,22 +1,18 @@
 .mySwiper {
-    margin-top: 20px;
-    max-width: 870px;
-    
+    /* margin: 20px 0; */
+    width: 45%;
 }
+
 
 img {
-    max-width: 870px;
-    height: 522px;
+    max-width: 95%;
     background-size:cover;
+    margin: 5px;
 } 
 
-@media only screen and (max-width: 870px) {
+/* @media only screen and (max-width: 440px) {
     .mySwiper {
-        margin: auto;
+        width: 100vw;
+       
     }
-
-    img {
-        width: 100%;
-        height: auto;
-    }
-}
+} */

@@ -1,32 +1,66 @@
 .home_main_container {
-    border: 2px solid navy;
-    border-radius: 10px;
+  width: 100vw;
+  /* height: 15%; */
+}
+
+.sw.swiper_main_1 {
+  background: url("../images/main_swiper_1.jpeg") no-repeat;
+  background-size: cover;
+  height: 40vh;
+
+}
+
+.sw.swiper_main_1 .reservation_link>Button {
+  width: 13rem;
+  height: 4rem;
+  font-size: 1.5rem;
+}
+
+.swiper-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+}
+
+.description {
+  width: 55%;
+  background-color: rgb(214, 232, 232);
+  /* background-image: url("../images/background-medium.png"); */
+
+}
+
+.carrousel {
+  
+}
+
+/* .call_to_action {
     margin: 20px auto;
-    background-color: rgb(31, 63, 138);
-    color: white;
-    max-width: 700px;
-    height: auto;
+    background-color: rgb(41, 104, 229);
+    color: rgb(14, 13, 13);
+    max-width: 450px;
 }
 
-.home_main_container h1 {
-    font-size: 28px;
+.call_to_action h1 {
+    font-size: 25px;
 }
 
-.home_main_container h2 {
-    font-size: 18px;
+.call_to_action p {
+    animation-duration: 1s;
+    animation-name: slidein;
 }
+  
+    @keyframes slidein {
+        from {
+            margin-left: 100%;
+            width: 300%;
+    }
+  
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+  }
 
 
-
-
-
-
-
-
-/* .home_main_container {
-    border: 3px solid navy;
-    border-radius: 10px;
-    margin: 50px;
-}
-
-margin: 20px auto; */
+ */

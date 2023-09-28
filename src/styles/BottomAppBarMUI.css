@@ -1,5 +1,8 @@
-.bottom_navigation {
-    margin: auto;
-    background-color: rgb(144, 155, 172);
+#footer {
+    width: 100vw;
+    background-color: rgb(30, 77, 123);
 }
 
+#footer > * {
+    color: white;
+}

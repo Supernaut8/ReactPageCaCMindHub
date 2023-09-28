@@ -12,6 +12,9 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
+import { MDBIcon } from 'mdb-react-ui-kit';
+import LocalHospitalIcon from '@mui/icons-material/LocalHospital';
+import '../styles/AppBarMUI.css'
 
 const pages = ['Obras sociales y prepagas', 'Boletín institucional', 'Consultas', 'Turnos'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
@@ -36,10 +39,10 @@ function AppBarMUI() {
   };
 
   return (
-    <AppBar position="static">
-      <Container maxWidth="xl">
+    <AppBar position="static" sx={{ backgroundColor: '#1E4D7B' }}>
+      <Container maxWidth="xl" className='navContainer'>
         <Toolbar disableGutters>
-          <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+        <LocalHospitalIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
           <Typography
             variant="h6"
             noWrap
@@ -55,7 +58,7 @@ function AppBarMUI() {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            NRMC
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -94,7 +97,7 @@ function AppBarMUI() {
               ))}
             </Menu>
           </Box>
-          <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
+          <LocalHospitalIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
           <Typography
             variant="h5"
             noWrap
@@ -107,11 +110,11 @@ function AppBarMUI() {
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
-              color: 'inherit',
+              // color: 'inherit',
               textDecoration: 'none',
             }}
           >
-            LOGO
+            NRMC
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
